@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="about-header">
+        <h1>About Me</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </header>
+    <main>
+
+        <section id="about" class="about-section">
+            <img class="about-photo" src="./IMG_5224.jpg">
+            <h2>Hello, I'm Abdulla</h2>
+            <p>I am a second-year Computer Engineering student at Ala-Too International University. I am interested in
+                computer and mobile games. I know and practice mobile development, and I am also learning backend
+                development on my own.</p>
+        </section>
+
+        <section id="hobbies" class="hobbies-section">
+            <h2>My Hobbies</h2>
+            <ul>
+                <li>Hiking</li>
+                <li>Playing games</li>
+                <li>Listening to music</li>
+            </ul>
+        </section>
+
+        <footer id="contact" class="about-footer">
+            <h2>Contact</h2>
+            <address>Email: <a href="abdulla.abdurauf@alatoo.edu.kg">abdulla.abdurauf@alatoo.edu.kg</a></address>
+        </footer>
+
+        <hr>
+
+        <h2 class="task-heading">Task 2: Registration Form</h2>
+
+            <form action="">
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </p>
+
+                <p>
+                    <label for="country">Country</label>
+                    <select id="country" name="country" required>
+                        <option value="" selected disabled>Select a country</option>
+                        <option value="kyrgyzstan">Kyrgyzstan</option>
+                        <option value="united-states">United States</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the terms</label>
+                </p>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <hr>
+            <h2 class="task-heading">Task 3: Product Card</h2>
+            <div class="card-wrapper">
+                <article class="product-card">
+                    <img class="product-image"
+                        src="https://upload.wikimedia.org/wikipedia/commons/4/46/Macbook_Air_15_inch_-_2_%28blurred%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original"
+                        alt="Macbook Air">
+                    <h3 class="product-title">Macbook Air</h3>
+                    <p class="product-price">$800</p>
+                    <button type="button" class="buy-button">Buy</button>
+                </article>
+            </div>
+
+    </main>
+</body>
+
+</html>
